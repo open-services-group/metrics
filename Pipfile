@@ -10,6 +10,14 @@ Sphinx = "*"
 
 [packages]
 awscli = "*"
+trino = "*"
+pydriller = "*"
+python-dotenv = "*"
+boto3 = "*"
+pandas = "*"
+pyarrow = "*"
+srcopsmetrics = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.8"
