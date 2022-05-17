@@ -1,0 +1,362 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "Q1 OKR Dashboard",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": null, \"remote_id\": 2}",
+                "position_json": "{\"CHART-Yxvwp1RjIF\":{\"children\":[],\"id\":\"CHART-Yxvwp1RjIF\",\"meta\":{\"chartId\":26,\"height\":50,\"sliceName\":\"Contributors (by SIG)\",\"uuid\":\"ebb8c36e-5ae9-43e5-9002-88416d2e80c8\",\"width\":9},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-hz5RX1UUY\"],\"type\":\"CHART\"},\"CHART-sqlt0o2eAl\":{\"children\":[],\"id\":\"CHART-sqlt0o2eAl\",\"meta\":{\"chartId\":25,\"height\":51,\"sliceName\":\"Percentage of OSG team covered by governance\",\"uuid\":\"d36da318-67b5-478b-9b14-230d1655ac5c\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-hz5RX1UUY\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"ROW-vR1MOqfYxC\",\"ROW-L6ruzuOuxX\",\"ROW-zZMjyjeAev\",\"ROW-hz5RX1UUY\",\"ROW-PNGreOtzae\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"Q1 OKR Dashboard\"},\"type\":\"HEADER\"},\"MARKDOWN-1qTl70GMvq\":{\"children\":[],\"id\":\"MARKDOWN-1qTl70GMvq\",\"meta\":{\"code\":\"\\n# Objective: BYON\\n\\nA service that implements the Bring Your Own Notebook (BYON) MVP in the context of Open Data Hub (ODH). The MVP is targeted to complete by **Red Hat Summit (May 2022)** and some of the work is still ongoing.\\n\\n## KRs Defined\\n\\nTo accomplish the objective, the following Key Results (KRs) have been defined:\\n\\n* **Validation pipeline implemented for container images input**. The issues/PRs that need to be completed to achieve the KR are:\\n  * https://github.com/thoth-station/helm-charts/pull/34\\n  * https://github.com/open-services-group/byon/issues/26\\n  * https://github.com/thoth-station/helm-charts/pull/35\\n  * https://github.com/open-services-group/byon/issues/30\\n  * https://github.com/open-services-group/byon/issues/18\\n\\n* **UI mockup design for the admin interface to import, edit, enable/disable, remove container images (admin feature)** The issues/PRs that need to be completed to achieve the KR are:\\n  * https://github.com/open-services-group/byon/issues/23\\n* **Frontend and Backend Implementation**. The issues/PRs that need to be completed to achieve the KR are:\\n  * https://github.com/opendatahub-io/odh-dashboard/issues/121\\n  * https://github.com/opendatahub-io/odh-dashboard/pull/147\\n  * https://github.com/opendatahub-io/odh-dashboard/pull/155\\n  * https://github.com/opendatahub-io/odh-dashboard/pull/156\\n\\n* **Integrating backend and UI**. The issues/PRs that need to be completed to achieve the KR are:\\n  * https://github.com/opendatahub-io/odh-dashboard/issues/121\\n  \\n* **Testing** The issues/PRs that need to be completed to achieve the KR are:\\n  * https://github.com/open-services-group/byon/issues/34\\n  * https://github.com/open-services-group/byon/pull/29\\n\",\"height\":56,\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-PNGreOtzae\"],\"type\":\"MARKDOWN\"},\"MARKDOWN-6C5kdSotso\":{\"children\":[],\"id\":\"MARKDOWN-6C5kdSotso\",\"meta\":{\"code\":\"**Contribution Graph**\\n\\nThis graph shows the contributions for each contributor in the Open Services Group across SIGs/WGs. We can also see which SIG/WG each contributor contributed to which is indicated by the stacked bar chart.\\n\\n**Definition of a contribution**\\n\\nWe consider a contribution to be any of the following:\\n\\n* **An issue created** in any of the SIG/WG/sub-projects mentioned above\\n* **A PR created** in any of the SIG/WG/sub projects mentioned above\\n* **A comment made on an issue/PR** in any of the SIG/WG/sub projects mentioned above\\n* **A PR reviewed** in any of the SIG/WG/sub projects mentioned above\",\"height\":27,\"width\":9},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-zZMjyjeAev\"],\"type\":\"MARKDOWN\"},\"MARKDOWN-owDjfFh8qi\":{\"children\":[],\"id\":\"MARKDOWN-owDjfFh8qi\",\"meta\":{\"code\":\"**Percentage of the OSG team covered by governance**\\n\\nIt is the percentage of the Open Services Group team that has had atleast **one contribution** made to the SIGs/WG/sub-projects mentioned above. The total team members in the OSG is **25**\",\"height\":27,\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-zZMjyjeAev\"],\"type\":\"MARKDOWN\"},\"MARKDOWN-pnBJDnj_89\":{\"children\":[],\"id\":\"MARKDOWN-pnBJDnj_89\",\"meta\":{\"code\":\"# Objective: Team Governance\\n\\nEvery endevour and every team member is part of an existing or newly created entity of the governance structure ie. working groups, SIGs (Special Interest Groups), projects etc.\\n\\n## Data\\n\\nThe data collected covers the following SIGs/WGs/projects:\\n\\n* **SIG Data Science** which comprises of the projects:\\n  * **OS Climate**\\n  * **Metrics**\\n  * **Operate First Data Science Community**\\n* **SIG Community Experience**\\n* **WG BYON** \",\"height\":33,\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-L6ruzuOuxX\"],\"type\":\"MARKDOWN\"},\"MARKDOWN-sPDso5oriC\":{\"children\":[],\"id\":\"MARKDOWN-sPDso5oriC\",\"meta\":{\"code\":\"# Overview\\n\\nThe aim of this dashboard is to provide an overview of the [Open Services Group](https://github.com/open-services-group) OKRs (objectives and key results) achieved in Q1.\\n\\n\\n\\n\\n\\n\",\"height\":17,\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-vR1MOqfYxC\"],\"type\":\"MARKDOWN\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-L6ruzuOuxX\":{\"children\":[\"MARKDOWN-pnBJDnj_89\"],\"id\":\"ROW-L6ruzuOuxX\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-PNGreOtzae\":{\"children\":[\"MARKDOWN-1qTl70GMvq\"],\"id\":\"ROW-PNGreOtzae\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-hz5RX1UUY\":{\"children\":[\"CHART-sqlt0o2eAl\",\"CHART-Yxvwp1RjIF\"],\"id\":\"ROW-hz5RX1UUY\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-vR1MOqfYxC\":{\"children\":[\"MARKDOWN-sPDso5oriC\"],\"id\":\"ROW-vR1MOqfYxC\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-zZMjyjeAev\":{\"children\":[\"MARKDOWN-owDjfFh8qi\",\"MARKDOWN-6C5kdSotso\"],\"id\":\"ROW-zZMjyjeAev\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.events",
+                            "datasource_type": "table",
+                            "id": 25,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_i0o4n1odjh_iu9thmi9ft\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"contributor_name <> 'sesheta'\\n\\n\", \"subject\": null}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_ortatz4t6y_t8x3egl0vlr\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"internal_contributor = true\", \"subject\": null}], \"datasource\": \"1__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"created_at\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"cast(COUNT(DISTINCT contributor_name) as...\", \"optionName\": \"metric_cvr1y1xfudp_7d0mj1kgea7\", \"sqlExpression\": \"cast(COUNT(DISTINCT contributor_name) as DECIMAL(7,2)) / 25\\n\"}, \"slice_id\": 25, \"subheader_font_size\": 0.15, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \",.1%\", \"remote_id\": 25, \"datasource_name\": \"events\", \"schema\": \"default\", \"database_name\": \"data_science_general\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"created_at\",\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"(contributor_name <> 'sesheta'\\n\\n) AND (internal_contributor = true)\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":null,\"column\":null,\"expressionType\":\"SQL\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"cast(COUNT(DISTINCT contributor_name) as...\",\"optionName\":\"metric_cvr1y1xfudp_7d0mj1kgea7\",\"sqlExpression\":\"cast(COUNT(DISTINCT contributor_name) as DECIMAL(7,2)) / 25\\n\"}],\"annotation_layers\":[],\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Percentage of OSG team covered by governance",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.events",
+                            "datasource_type": "table",
+                            "id": 26,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_oz5rcisqljl_zaqecv9is6a\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"contributor_name NOT IN ('sesheta', 'dependabot[bot]', 'review-notebook-app[bot]', 'khebhut[bot]', 'test')\", \"subject\": null}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_0dkkdyzmpnzq_wuxoabgecjh\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"internal_contributor = true\", \"subject\": null}], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [\"sig\"], \"datasource\": \"1__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"created_at\", \"groupby\": [\"contributor_name\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"issue_or_pr_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 7, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"BIGINT\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(issue_or_pr_id)\", \"optionName\": \"metric_cojlje1ehqp_odb6eej9obi\", \"sqlExpression\": null}], \"order_desc\": true, \"row_limit\": 10000, \"slice_id\": 26, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 26, \"datasource_name\": \"events\", \"schema\": \"default\", \"database_name\": \"data_science_general\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"created_at\",\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"(contributor_name NOT IN ('sesheta', 'dependabot[bot]', 'review-notebook-app[bot]', 'khebhut[bot]', 'test')) AND (internal_contributor = true)\"},\"applied_time_extras\":{},\"columns\":[\"contributor_name\",\"sig\"],\"metrics\":[{\"aggregate\":\"COUNT\",\"column\":{\"column_name\":\"issue_or_pr_id\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":7,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"BIGINT\",\"type_generic\":0,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"COUNT(issue_or_pr_id)\",\"optionName\":\"metric_cojlje1ehqp_odb6eej9obi\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Contributors (by SIG)",
+                            "viz_type": "dist_bar"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 3,
+                            "changed_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "column_name": "id",
+                            "created_by_fk": 3,
+                            "created_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR",
+                            "uuid": "529b8d85-667f-4a28-8558-a5c0defe58b2",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 3,
+                            "changed_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "column_name": "created_at",
+                            "created_by_fk": 3,
+                            "created_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 2,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "TIMESTAMP",
+                            "uuid": "dacdf516-dbd3-4330-822e-fe7410ab1e85",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 3,
+                            "changed_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "column_name": "contributor_id",
+                            "created_by_fk": 3,
+                            "created_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 3,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "BIGINT",
+                            "uuid": "4637c710-1a46-4495-8f62-f0380595c422",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 3,
+                            "changed_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "column_name": "contributor_name",
+                            "created_by_fk": 3,
+                            "created_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 4,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR",
+                            "uuid": "389798b5-de38-4021-a0f7-676265df0d97",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 3,
+                            "changed_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "column_name": "type",
+                            "created_by_fk": 3,
+                            "created_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 5,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR",
+                            "uuid": "71f0e062-95d6-4437-97e0-42845ebe8434",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 3,
+                            "changed_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "column_name": "action",
+                            "created_by_fk": 3,
+                            "created_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 6,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR",
+                            "uuid": "a6bc5c3c-264c-4adb-8a6d-dc054099cadb",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 3,
+                            "changed_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "column_name": "issue_or_pr_id",
+                            "created_by_fk": 3,
+                            "created_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 7,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "BIGINT",
+                            "uuid": "7446f4b4-6e2b-43ab-b933-340618183ace",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 3,
+                            "changed_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "column_name": "org",
+                            "created_by_fk": 3,
+                            "created_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 8,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR",
+                            "uuid": "8940023b-7235-4768-b88c-913367d7073e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 3,
+                            "changed_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "column_name": "repo",
+                            "created_by_fk": 3,
+                            "created_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 9,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR",
+                            "uuid": "a53a86b7-92ff-4ad0-af89-d4fb61fcb633",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 3,
+                            "changed_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "column_name": "sig",
+                            "created_by_fk": 3,
+                            "created_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 10,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR",
+                            "uuid": "acdd7e8c-20b8-4e42-b7dc-f3e6597aa2ed",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 3,
+                            "changed_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "column_name": "internal_contributor",
+                            "created_by_fk": 3,
+                            "created_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 11,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "BOOLEAN",
+                            "uuid": "f4e2bd8f-7f8a-4f8c-bcbd-f1f3bc946199",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "created_at",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 3,
+                            "changed_on": {
+                                "__datetime__": "2022-05-09T16:24:38"
+                            },
+                            "created_by_fk": 3,
+                            "created_on": {
+                                "__datetime__": "2022-04-28T17:56:23"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": "{}",
+                            "id": 1,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 1,
+                            "uuid": "8a3c241a-b689-4a36-a822-588884f28596",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 1, \"database_name\": \"data_science_general\"}",
+                "schema": "default",
+                "sql": null,
+                "table_name": "events",
+                "template_params": null
+            }
+        }
+    ]
+}
