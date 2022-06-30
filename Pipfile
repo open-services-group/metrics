@@ -16,7 +16,7 @@ python-dotenv = "*"
 boto3 = "*"
 pandas = "*"
 pyarrow = "*"
-srcopsmetrics = "*"
+srcopsmetrics = "==2.11.1"
 matplotlib = "*"
 
 [requires]
