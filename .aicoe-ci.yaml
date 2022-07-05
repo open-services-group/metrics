@@ -8,6 +8,6 @@ build:
   build-source-script: "image:///opt/app-root/builder"
   base-image: quay.io/thoth-station/s2i-elyra-custom-notebook:v0.4.5
   registry: quay.io
-  registry-org: aicoe
+  registry-org: open-services-group
   registry-project: metrics
   registry-secret: aicoe-pusher-secret
