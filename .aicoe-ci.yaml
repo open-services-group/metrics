@@ -10,4 +10,4 @@ build:
   registry: quay.io
   registry-org: open-services-group
   registry-project: metrics
-  registry-secret: aicoe-pusher-secret
+  registry-secret: osg-pusher-secret
