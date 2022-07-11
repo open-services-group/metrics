@@ -18,6 +18,7 @@ pandas = "*"
 pyarrow = "*"
 srcopsmetrics = "==2.11.1"
 matplotlib = "*"
+jinja2 = "<3.1.0"
 
 [requires]
 python_version = "3.8"
